@@ -1,0 +1,11 @@
+export interface Page {
+  id: string;
+  owner_id: string;
+  title: string;
+  emoji: string;
+  parent_id: string | null;
+  is_deleted: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
